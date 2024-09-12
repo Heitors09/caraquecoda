@@ -1,10 +1,11 @@
 import {  PaperclipIcon, } from 'lucide-react'
 import React from 'react'
+import { WavyBackground } from '../ui/wavy-background'
 
 const ContactForm = () => {
   return (
-    <div id="section-3" className=" h-screen mt-24 w-full">
-    <div className="ring-1 ring-zinc-900 relative flex flex-wrap w-full  h-screen justify-center items-center ">
+    <div id="section-4" className="relative h-screen mt-24 w-full">
+    <WavyBackground className="ring-1 ring-zinc-900 relative flex flex-wrap w-full  h-screen justify-center items-center ">
    <div className=" text-white h-[557px] flex flex-col justify-between  w-[50%] pl-12">
    <img
    src='/caraquecoda-logo.png'
@@ -38,7 +39,7 @@ const ContactForm = () => {
       </div>
     </div>
    </div>
-  </div>
+  </WavyBackground>
  </div>
   )
 }
