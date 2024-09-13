@@ -1,78 +1,22 @@
-'use client'
-
-import React, { useEffect, useState } from 'react'
-import ShineBorder from '../magicui/shine-border'
-import {  BarChart,  Cloud,  Cpu, Database,  ServerCog, ShieldAlert,  Webhook, Zap } from 'lucide-react'
-import "keen-slider/keen-slider.min.css"
-
-
+import { ChevronDown } from 'lucide-react'
+import React from 'react'
 
 const CardAbout = () => {
-  
-
-
   return (
-    <div id='section-3' className=" h-screen w-full my-12 flex flex-col items-center">
-    <div className="flex flex-col items-center">
-      <h3 className="text-2xl text-white my-5 flex gap-2">Serviços<span className="text-[#FFC700]">disponiveis</span></h3>
+    <div id='section-2' className="h-screen flex w-full text-white">
+    <div className="flex flex-col gap-12 w-[70%] p-32 ">
+      <p className="opacity-70 text-lg">Sobre nós</p>
+      <h3 className="text-6xl font-bold w-[900px]">Somos <span className="text-[#FFC700]">criadores</span> de experiências únicas.</h3>
+      <img
+     src="/caraquecoda-logo.png"
+     alt='caraquecoda-logo'
+     width={300}
+     height={200}
+     />
+     <p className="text-sm opacity-70">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic</p>
+     <a href="#section-3" className="hover:bg-zinc-900 w-32 h-12 p-3 rounded-[8px] flex items-center gap-2">Descubra<ChevronDown className="size-4"/></a>
+     </div> 
     </div>
-    <div className=" w-full gap-5 grid px-12 grid-cols-4 my-5">
-       <ShineBorder color={["#FFF9C4", "#FFB74D", "#795548"]} className="bg-[#0D0D0D] px-5 py-7 items-start flex flex-col gap-4 w-full h-full rounded-2xl text-white">
-         <Webhook className="size-12 bg-[#FFC700] rounded-[8px] p-2"/>
-         <h3 className="text-xl">Desenvolvimento Web</h3>
-         <p className="text-xs opacity-70">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-         <p className="text-[#FFC700] text-xs">Saiba mais</p>
-       </ShineBorder>
-       <ShineBorder color={["#FFF9C4", "#FFB74D", "#795548"]} className="bg-[#0D0D0D] px-5 py-7 items-start flex flex-col gap-4 w-full h-full rounded-2xl text-white">
-<BarChart className="size-12 bg-[#FFC700] rounded-[8px] p-2" />
-<h3 className="text-xl">Análise de Dados e Visualização</h3>
-<p className="text-xs opacity-70">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-<p className="text-[#FFC700] text-xs">Saiba mais</p>
-</ShineBorder>
-
-       <ShineBorder color={["#FFF9C4", "#FFB74D", "#795548"]} className="bg-[#0D0D0D] px-5 py-7 items-start flex flex-col gap-4 w-full h-full rounded-2xl text-white">
-<ServerCog className="size-12 bg-[#FFC700] rounded-[8px] p-2" />
-<h3 className="text-xl">DevOps e Automação de Infraestrutura</h3>
-<p className="text-xs opacity-70">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-<p className="text-[#FFC700] text-xs">Saiba mais</p>
-</ShineBorder>
-
-<ShineBorder color={["#FFF9C4", "#FFB74D", "#795548"]} className="bg-[#0D0D0D] px-5 py-7 items-start flex flex-col gap-4 w-full h-full rounded-2xl text-white">
-<Database className="size-12 bg-[#FFC700] rounded-[8px] p-2" />
-<h3 className="text-xl">Gerenciamento de Bancos de Dados</h3>
-<p className="text-xs opacity-70">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-<p className="text-[#FFC700] text-xs">Saiba mais</p>
-</ShineBorder>
-
-<ShineBorder color={["#FFF9C4", "#FFB74D", "#795548"]} className="bg-[#0D0D0D] px-5 py-7 items-start flex flex-col gap-4 w-full h-full rounded-2xl text-white">
-<ShieldAlert className="size-12 bg-[#FFC700] rounded-[8px] p-2" />
-<h3 className="text-xl">Segurança da Informação</h3>
-<p className="text-xs opacity-70">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-<p className="text-[#FFC700] text-xs">Saiba mais</p>
-</ShineBorder>
-
-<ShineBorder color={["#FFF9C4", "#FFB74D", "#795548"]} className="bg-[#0D0D0D] px-5 py-7 items-start flex flex-col gap-4 w-full h-full rounded-2xl text-white">
-<Cloud className="size-12 bg-[#FFC700] rounded-[8px] p-2" />
-<h3 className="text-xl">Arquitetura em Nuvem</h3>
-<p className="text-xs opacity-70">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-<p className="text-[#FFC700] text-xs">Saiba mais</p>
-</ShineBorder>
-
-<ShineBorder color={["#FFF9C4", "#FFB74D", "#795548"]} className="bg-[#0D0D0D] px-5 py-7 items-start flex flex-col gap-4 w-full h-full rounded-2xl text-white">
-<Cpu className="size-12 bg-[#FFC700] rounded-[8px] p-2" />
-<h3 className="text-xl">Desenvolvimento de Sistemas Embutidos</h3>
-<p className="text-xs opacity-70">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-<p className="text-[#FFC700] text-xs">Saiba mais</p>
-</ShineBorder>
-
-<ShineBorder color={["#FFF9C4", "#FFB74D", "#795548"]} className="bg-[#0D0D0D] px-5 py-7 items-start flex flex-col gap-4 w-full h-full rounded-2xl text-white">
-<Zap className="size-12 bg-[#FFC700] rounded-[8px] p-2" />
-<h3 className="text-xl">Automação de Processos de Negócio</h3>
-<p className="text-xs opacity-70">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-<p className="text-[#FFC700] text-xs">Saiba mais</p>
-</ShineBorder>
-    </div>
-   </div>
   )
 }
 

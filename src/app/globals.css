@@ -20,3 +20,17 @@ body{
   4 4,
 auto;
 }
+
+
+.clip-box {
+  clip-path: polygon(0 0, 90% 0, 95% 50%, 90% 100%, 0 100%);
+}
+
+.clip-box-left {
+  clip-path: polygon(0 0, 5% 50%, 0 100%, 95% 100%, 100% 50%, 95% 0);
+  
+}
+
+.clip-box-inward-left {
+  clip-path: polygon(0 0, 5% 50%, 0 100%, 100% 100%, 100% 0);
+}
