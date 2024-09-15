@@ -7,7 +7,7 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import BlurFade from '../magicui/blur-fade'
 import { InformationCircleIcon } from '@heroicons/react/24/outline'
-import { Contact, Contact2 } from 'lucide-react'
+import { ChevronsLeftRight, Contact, Contact2, Star } from 'lucide-react'
 
 
 const Navbar = () => {
@@ -32,7 +32,13 @@ const Navbar = () => {
     <a className='hover:bg-zinc-800 px-3 py-2 rounded-[8px] duration-150 gap-2 flex  items-center text-sm'  href="#section-3" >
       <BriefcaseIcon className="size-6"/><p className='text-regular'>Serviços </p>
     </a>
-    <a className='hover:bg-zinc-800 px-3 py-2 rounded-[8px] duration-150 flex gap-2 items-center text-sm'  href="#section-4">
+    <a className='hover:bg-zinc-800 px-3 py-2 rounded-[8px] duration-150 gap-2 flex  items-center text-sm'  href="#section-4" >
+      <ChevronsLeftRight className="size-6"/><p className='text-regular'>Processo</p>
+    </a>
+    <a className='hover:bg-zinc-800 px-3 py-2 rounded-[8px] duration-150 gap-2 flex  items-center text-sm'  href="#section-5" >
+      <Star className="size-5"/><p className='text-regular'>Avaliações </p>
+    </a>
+    <a className='hover:bg-zinc-800 px-3 py-2 rounded-[8px] duration-150 flex gap-2 items-center text-sm'  href="#section-6">
       <Contact2 className="size-5"/><p>Contato</p>
     </a>
     </div>
