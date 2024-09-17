@@ -2,18 +2,17 @@ import React from 'react'
 
 const Reviews = () => {
   return (
-    <div id='section-5' className="h-[700px] w-full flex flex-col gap-7 py-8 px-4 md:px-8 lg:px-16 xl:px-32">
-  <div className="flex flex-col items-center  gap-12">
+    <div id='section-5' className="h-[700px] w-full flex flex-col gap-7 py-32 px-4 md:px-8 lg:px-16 xl:px-32">
+  <div className="flex flex-col gap-7">
     <h3 className="text-white font-bold text-3xl md:text-4xl lg:text-5xl">
       O que nossos clientes dizem <span className="text-[#FFC700]">sobre</span> nós
     </h3>
-    <p className="text-white opacity-70 text-sm text-center w-[900px]">
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto amet eveniet dolor labore! Vero autem consequatur, vitae voluptatum
+    <p className="text-white opacity-70 text-lg w-[900px] font-light">
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto amet eveniet dolor labore! Vero autem consequatur, vitae voluptatum
     </p>
   </div> 
 
-  <div className="flex flex-wrap gap-6 justify-center">
+  <div className="flex flex-wrap gap-6 ">
     {[1, 2, 3].map((_, index) => (
       <div key={index} className="bg-[#0D0D0D] w-full sm:w-[300px] rounded-lg shadow-lg flex flex-col h-auto p-5 md:p-7">
         <p className="text-white text-sm md:text-base">

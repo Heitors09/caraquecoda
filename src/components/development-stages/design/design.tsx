@@ -31,7 +31,7 @@ const Design = () => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             viewport={{ once: true }}
-            className='flex flex-col gap-2 items-center -ml-[13px]'
+            className='flex flex-col gap-2 items-center '
           >
             <img
               src='https://images.unsplash.com/photo-1612556810513-617a5a892418?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHByb3RvdGlwYWdlbXxlbnwwfHwwfHx8MA%3D%3Dhttps://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'

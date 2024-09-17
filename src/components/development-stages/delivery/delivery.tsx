@@ -31,7 +31,7 @@ const Delivery = () => {
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.3 }}
           viewport={{ once: true }}
-          className='flex flex-col gap-2 items-center -ml-[13px]'
+          className='flex flex-col gap-2 items-center'
         >
           <img
             src='https://images.unsplash.com/photo-1426024120108-99cc76989c71?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
