@@ -46,6 +46,5 @@ auto;
 
 .light-box:hover {
   box-shadow: 0 0 25px rgba(255, 199, 0, 0.8); /* Intensifica o brilho ao passar o mouse */
-  transform: translateY(-5px);
   transition: 0.3s;
 }
