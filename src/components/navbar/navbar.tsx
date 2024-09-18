@@ -41,9 +41,17 @@ const Navbar = () => {
       </DropdownMenuTrigger>
        <DropdownMenuContent className="bg-[#0D0D0D] w-[300px]  shadow-lg ml-52 border-none  rounded-[8px]">
          <DropdownMenuItem >
-         <Link href='/services' className='flex flex-col group  hover:bg-zinc-800 hover:cursor-pointer py-4 pl-4 rounded-[8px] items-start gap-1'>
+         <Link href='/#section-3' className='flex flex-col group  hover:bg-zinc-800 hover:cursor-pointer py-4 pl-4 rounded-[8px] items-start gap-1'>
          <div  className='  text-white  duration-150 gap-2 flex  items-center text-sm'   >
             <BriefcaseIcon className="size-5 group-hover:text-[#FFC700]"/><p className='text-regular'>Serviços</p>
+          </div>
+          <p className='text-white text-xs opacity-70 ml-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </Link> 
+         </DropdownMenuItem>
+         <DropdownMenuItem>
+         <Link href='/#section-4' className='flex group rounded-[8px] hover:bg-zinc-800 hover:cursor-pointer py-4 pl-4   flex-col items-start gap-1'>
+         <div className='  text-white  duration-150 gap-2 flex  items-center text-sm'   >
+            <StarIcon className="size-5 group-hover:text-[#FFC700]"/><p className='text-regular'>Trabalhos e avaliações</p>
           </div>
           <p className='text-white text-xs opacity-70 ml-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </Link> 
@@ -56,14 +64,7 @@ const Navbar = () => {
           <p className='text-white text-xs opacity-70 ml-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </Link> 
          </DropdownMenuItem>
-         <DropdownMenuItem>
-         <Link href='/reviews' className='flex group rounded-[8px] hover:bg-zinc-800 hover:cursor-pointer py-4 pl-4   flex-col items-start gap-1'>
-         <div className='  text-white  duration-150 gap-2 flex  items-center text-sm'   >
-            <StarIcon className="size-5 group-hover:text-[#FFC700]"/><p className='text-regular'>Avaliações</p>
-          </div>
-          <p className='text-white text-xs opacity-70 ml-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </Link> 
-         </DropdownMenuItem>
+        
 
        </DropdownMenuContent>
     </DropdownMenu>

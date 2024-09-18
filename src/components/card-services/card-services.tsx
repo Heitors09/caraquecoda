@@ -23,8 +23,8 @@ const CardServices = () => {
              <div className='flex flex-col h-[400px]  justify-between text-white'>
                  <p className='text-[#FFC700] text-sm ring-1 rounded-full w-[200px] ring-[#FFC700] flex items-center justify-center p-1'>Tecnologia que Conecta</p>
                  <h3 className='text-5xl  font-bold'>Desenvolvimento <span className="text-[#FFC700]">web</span></h3>
-                 <p className=' text-sm'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, qui. Illum blanditiis sed facilis accusantium reprehenderit eum quidem dolorum delectus, id voluptatem aliquam aliquid, placeat.</p>
-                 <div className='flex flex-col gap-2'>
+                 <p className=' text-xs'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, qui. Illum blanditiis sed facilis accusantium reprehenderit eum quidem dolorum delectus, id voluptatem aliquam aliquid, placeat.</p>
+                 <div className='flex flex-col gap-4'>
                    <p className='flex items-center gap-2 text-sm'><CheckCheck className='text-[#FFC700]'/>lorem ipsum </p>
                    <p className='flex items-center gap-2 text-sm'><CheckCheck className='text-[#FFC700]'/>lorem ipsum</p>
                    <p className='flex items-center gap-2 text-sm'><CheckCheck className='text-[#FFC700]'/>lorem ipsum</p>
@@ -48,8 +48,8 @@ const CardServices = () => {
              <div className='flex flex-col h-[400px] justify-between text-white'>
                  <p className='text-[#FFC700] text-sm ring-1 rounded-full w-[200px] ring-[#FFC700] flex items-center justify-center p-1'> Experiências dinâmicas</p>
                  <h3 className='text-5xl  font-bold'>Desenvolvimento <span className="text-[#FFC700]">mobile</span></h3>
-                 <p className=' text-sm'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, qui. Illum blanditiis sed facilis accusantium reprehenderit eum quidem dolorum delectus, id voluptatem aliquam aliquid, placeat.</p>
-                 <div className='flex flex-col gap-2'>
+                 <p className=' text-xs'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, qui. Illum blanditiis sed facilis accusantium reprehenderit eum quidem dolorum delectus, id voluptatem aliquam aliquid, placeat.</p>
+                 <div className='flex flex-col gap-4'>
                    <p className='flex items-center gap-2 text-sm'><CheckCheck className='text-[#FFC700]'/>lorem ipsum </p>
                    <p className='flex items-center gap-2 text-sm'><CheckCheck className='text-[#FFC700]'/>lorem ipsum</p>
                    <p className='flex items-center gap-2 text-sm'><CheckCheck className='text-[#FFC700]'/>lorem ipsum</p>
@@ -65,8 +65,8 @@ const CardServices = () => {
              <div className='flex flex-col h-[400px]  justify-between text-white'>
                  <p className='text-[#FFC700] text-sm ring-1 rounded-full w-[200px] ring-[#FFC700] flex items-center justify-center p-1'>Design Inteligente</p>
                  <h3 className='text-5xl  font-bold'>UI/UX <span className="text-[#FFC700]">Design</span></h3>
-                 <p className=' text-sm'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, qui. Illum blanditiis sed facilis accusantium reprehenderit eum quidem dolorum delectus, id voluptatem aliquam aliquid, placeat.</p>
-                 <div className='flex flex-col gap-2'>
+                 <p className=' text-xs'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, qui. Illum blanditiis sed facilis accusantium reprehenderit eum quidem dolorum delectus, id voluptatem aliquam aliquid, placeat.</p>
+                 <div className='flex flex-col gap-4'>
                    <p className='flex items-center gap-2 text-sm'><CheckCheck className='text-[#FFC700]'/>lorem ipsum </p>
                    <p className='flex items-center gap-2 text-sm'><CheckCheck className='text-[#FFC700]'/>lorem ipsum</p>
                    <p className='flex items-center gap-2 text-sm'><CheckCheck className='text-[#FFC700]'/>lorem ipsum</p>
@@ -78,7 +78,7 @@ const CardServices = () => {
                  </Button>
              </div>
              <img
-             src='https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+             src='https://images.unsplash.com/photo-1559028012-481c04fa702d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fFVJJTJGVVglMjBERVNJR058ZW58MHx8MHx8fDA%3D'
              className='w-[50%] h-[400px]  rounded-[8px] opacity-70'
              />
           </div>
